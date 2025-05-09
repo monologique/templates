@@ -8,6 +8,13 @@
 [license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg
 [license-url]: https://opensource.org/licenses/MIT
 
+## Templates
+
+| Languages                                                          | Set      |
+| :----------------------------------------------------------------- | :------- |
+| [Nix](https://github.com/monologique/nix-flake-template)           | `#flake` |
+| [OCaml (dune)](https://github.com/monologique/dune-flake-template) | `#dune`  |
+
 ## Getting Started
 
 ```bash
@@ -17,7 +24,6 @@ nix flake init -t github:monologique/templates#flake
 # In a new directory
 nix flake new my-new-template -t github:monologique/templates#flake
 ```
-
 
 ## Registry Setup (For Frequent Use)
 
